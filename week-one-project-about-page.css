@@ -1,0 +1,67 @@
+body, * {
+margin:0;
+padding:10px;
+font-family:sans-serif;
+font-size:20px;
+}
+.container {
+  background:white;
+  width:760px;
+  padding:10px;
+  margin:auto;
+}
+.nav-bar {
+  display;flex;
+  justify-content: flex-end;
+  background-color:white;
+  padding:5px;
+  text-decoration: none;
+  font-weight:400;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  font-size:150%;
+}
+.clear {
+  clear:both;
+}
+
+.page {
+  border:20px;
+  padding:inherit;
+}
+.images {
+  border: 0;
+  height: 30vw;
+  width: 30 vw;
+  margin: 6px;
+  color: white;
+
+}
+
+#one {
+  background-image: url("./images/birdhouse.jpg");
+  width:80px;
+  height:80px;
+  float:left;
+  margin-left:20px;
+  margin-right: 20 px;
+}
+#two {
+  background-image:url("./images/background-3.jpg");
+  width:7200px;
+  height:80px;
+  float:right;
+  margin-left:20px;
+  margin-right: 20 px;
+}
+#three {
+  background-image:url("./images/background-1");
+  width:80px;
+  height:80px
+  float:right;
+  margin-left: 20px
+  margin-right:20px
+}
